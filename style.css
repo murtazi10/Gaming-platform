@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 5006px;
+    height: 5378px;
     background: linear-gradient(180.96deg, #080008 0.82%, #7c0092 129.1%);
 
 
@@ -372,12 +372,12 @@ color: white;
 /* მეოთხე სექცია*/
 
 .fourth-section{
-    height: 100vh;
+    height: 95vh;
     background-image: url(./assets/images/db4d123c4b390965f684f22d4bf13849\ 1.png);
     position: relative;
     
     
-    
+
 }
 
 .grdient{
@@ -523,7 +523,7 @@ height: 17px;
 
 
 .container3{
-    height: 1710px;
+    height: 1630px;
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 135px;
@@ -689,7 +689,7 @@ height: 17px;
     letter-spacing: 0em;
     position: absolute;
     right: 200px;
-    top:  4597px;
+    top:  4650px;
 }
 
 
@@ -822,7 +822,7 @@ height: 17px;
 }
 
 .footer{
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 .line{
