@@ -16,7 +16,8 @@ body{
 .header-container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 40px 63px 0 55px;
+    padding: 3% 3% 0 4%;
+   
     
 }
 
@@ -117,7 +118,7 @@ width:  75px;
 .container1{
     max-width: 1440px;
     margin: 0 auto;
-    padding-left: 147px;
+    padding-left: 10%;
 }
 
 .first-section{
@@ -236,7 +237,7 @@ margin-bottom: 40px;
 .container2{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 147px;
+    padding: 0 10%;
 }
 
 .second-section-heading{
@@ -316,6 +317,7 @@ margin-bottom: 57px;
 /* მეასემე სექცია*/
 
 
+
 .third-section-heading{
     font-family: 'poppins';
     font-size: 35px;
@@ -353,7 +355,7 @@ color: white;
 }
 
 .spiderman{
-    margin-top: 60px;
+    margin-top: 5%;
     border-radius: 5px;
     position: relative;
     margin-bottom: 157px;
@@ -371,16 +373,18 @@ color: white;
 
 /* მეოთხე სექცია*/
 
+
+.container4{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .back-img{
     width: 1440px;
     height: 102.30vh;
     background-repeat: no-repeat;
 }
     
-    
-    
-
-
 
 .grdient{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), rgba(0, 0, 0, 0.54);
@@ -527,7 +531,7 @@ height: 17px;
     height: 1630px;
     max-width: 1440px;
     margin: 0 auto;  
-    padding: 0 135px; 
+    padding: 0 9%; 
     background: linear-gradient(148.9deg, #090300 18.81%, rgba(9, 3, 0, 0) 199.4%);
 
 }
@@ -691,7 +695,7 @@ height: 17px;
     line-height: 20px;
     letter-spacing: 0em;
     position: absolute;
-    right: 195px;
+    right: 199px;
     top:  4719px;
 }
 
@@ -719,7 +723,7 @@ height: 17px;
 
 .container-footer{
     max-width: 1440px;
-    padding:70px 101px 0px 120px ;
+    padding:4% 7% 0px 10% ;
     height: 376px;
 }
 
@@ -852,24 +856,3 @@ height: 17px;
 
 
 
-@media  sqreen and (min-width:144px) {
-
-    .back-img{
-        width: 1440px;
-        height: 102.30vh;
-    }
-        
-    
-    .grdient{
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), rgba(0, 0, 0, 0.54);
-        position: absolute;
-        background-repeat: no-repeat;
-        height: 103vh;
-        width: 1440px;
-        top:2494px;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
-}

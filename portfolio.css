@@ -18,7 +18,7 @@ body{
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 55px 63px 0 55px;
+    padding: 4.20% 3% 0 4%;
     margin-bottom: 120px;
     
 }
@@ -62,8 +62,8 @@ body{
     border-top: #E87D0E 4px solid;
     max-width:  35px;
     padding: 6px 13px;
-    top: 82px;
-    left: 970px;
+    top: 86px;
+    left: 995px;
     
    
 }
@@ -72,7 +72,8 @@ body{
 
 .main-container{
     max-width: 1440px;
-    padding: 0 130px 0 170px;
+    padding: 0 9% 0 12%;
+    margin: 0 auto;
 }
 
 div span{
@@ -186,7 +187,8 @@ div span{
 
 .main-container2{
     width: 1440px;
-    padding: 0 140px 0 110px;
+    padding: 0 11% 0 8%;
+    margin: 0 auto;
 }
 
 .games-gallery-h1{
@@ -283,7 +285,9 @@ div span{
     max-width: 1440px;
     height: 738px;
     background-color:  #2e2e2e;
-    padding-top: 88px;
+    padding-top: 5%;
+    margin: 0 auto;
+    
 }
 
 .costumer-review-h1{
@@ -457,7 +461,8 @@ div span{
 
 .main-container4{
     max-width: 1440px;
-    padding: 0 161px 0 109px ;
+    padding: 0 11% 0 8% ;
+    margin: 0 auto;
 }
 
 
@@ -547,7 +552,7 @@ div span{
     letter-spacing: 0em;
     position: absolute;
     left: 1120px;
-    top:  4213px;
+    top:  4219px;
     width: fit-content;
 }
 
@@ -563,8 +568,8 @@ div span{
 
 .container-footer{
     max-width: 1440px;
-    padding:70px 101px 0px 120px ;
-    height: 376px;
+    padding:4% 7% 0px 10% ;
+    height: 371px;
 }
 
 
@@ -670,6 +675,7 @@ div span{
 
 .footer{
     background-color: rgb(0, 0, 0);
+    
 }
 
 .line{
@@ -701,12 +707,3 @@ div span{
 
 }
 
-@media  sqreen and (min-width:144px){
-    .main-container3{
-        max-width: 1440px;
-        height: 738px;
-        background-color:  #2e2e2e;
-        padding-top: 88px;
-    }
-    
-}
