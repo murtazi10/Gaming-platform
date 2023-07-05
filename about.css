@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 400vh;
+    
     background: linear-gradient(180.96deg, #080008 0.92%, #7c0092 180.1%);
 
 
@@ -425,7 +425,7 @@ div span{
     letter-spacing: 0em;
     position: absolute;
     left: 1120px;
-    top:  3063px;
+    top:  3064px;
     width: fit-content;
 }
 
@@ -571,3 +571,11 @@ div span{
 
 }
 
+@media  sqreen and (min-width:144px) {
+.main-container3{
+    max-width: 1440px;
+    padding: 113px 203px 0 110px;
+    background-color: #2e2e2e;
+}
+
+}
