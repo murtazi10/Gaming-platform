@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 300vh;
+    
     background: linear-gradient(180.96deg, #080008 0.82%, #7c0092 129.1%);
 
 
@@ -373,7 +373,8 @@ color: white;
 
 .back-img{
     width: 1440px;
-    height: 100vh;
+    height: 102.30vh;
+    background-repeat: no-repeat;
 }
     
     
@@ -691,7 +692,7 @@ height: 17px;
     letter-spacing: 0em;
     position: absolute;
     right: 195px;
-    top:  4697px;
+    top:  4719px;
 }
 
 
@@ -848,229 +849,27 @@ height: 17px;
 
 }
 
-@media screen and (min-width:1920px) {
-    .header-container {
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 40px 63px 0 55px;
-    }
 
-    .container1 {
-        max-width: 1920px;
-        margin: 0 auto;
-        padding-left: 147px;
-        padding-right: 40px;
-    }
 
-    .container2 {
-        max-width: 1920px;
-        margin: 0 auto;
-        padding: 0 147px;
-    }
 
-    .game-card {
-        width: 370px;
-        height: 390px;
-        object-fit: cover;
-        transition: .3s ease;
-        border-radius: 20px;
-    }
-
-    .spiderman {
-        margin-top: 60px;
-        border-radius: 5px;
-        position: relative;
-        margin-bottom: 157px;
-        width: 100%;
-    }
-
-    .absolute {
-        position: absolute;
-        right: 400px;
-        height: 77px;
-        max-width:  196px;
-        object-fit: cover;
-        top: 1905px;
-        width: 100%;
-    }
-    
-    .fourth-section {
-        
-        position: relative;
-        width: 1920px;
-        height: 90vh;
-        background-repeat: no-repeat;
-    }
+@media  sqreen and (min-width:144px) {
 
     .back-img{
-        width: 1920px;
-        height: 90vh;
-        position: relative;
-        object-fit: cover;
+        width: 1440px;
+        height: 102.30vh;
+    }
         
+    
+    .grdient{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), rgba(0, 0, 0, 0.54);
+        position: absolute;
+        background-repeat: no-repeat;
+        height: 103vh;
+        width: 1440px;
+        top:2494px;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
 
-   .container3 {
-    height: 2050px;
-    max-width: 1920px;
-    margin: 0 auto;  
-    padding: 0 135px; 
-    background: linear-gradient(148.9deg, #090300 18.81%,#5d026d 199.4%) ;
-    
-
-   }
-
-   .grdient {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), rgba(0, 0, 0, 0.54);
-    position: absolute;
-    background-repeat: no-repeat;
-    height: 90vh;
-    width: 1920px;
-    top:0px;
-    bottom: 0;
-    left: 0px;
-    right: 0;
-   }
-
-   .body{
-    height: 5398;
-    background: linear-gradient(180.96deg, #080008 0.82%, #7c0092 129.1%);
-
-   }
-
-   .fourth-section-heading {
-    font-family: 'poppins';
-    color: white;
-    position: absolute;
-    top: 93px;
-    text-align: center;
-    left: 550px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-   }
-
-   .project-card{
-    width: 120%;
-    transition: .3s ease;
-    border-radius: 20px;
 }
-
-
-.gallery-projects{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 200px;
-    margin-bottom: 72px;
-    
-    
-}
-
-.button4{
-    margin-left:800px ;
-}
-
-.email {
-    max-width: 1700px;
-    max-height: 250px;
-}
-
-.form{
-    margin-top: 40px;
-    width:500px ;
-}
-
-.container-footer{
-    max-width: 1920px;
-    padding:100px 101px 0px 120px ;
-    height: 476px;
-}
-
-.footer-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    gap: 90px;
-    
-    
-}
-
-.game-card:hover{
-    transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    box-shadow: 0px 9px 9px 6px rgb(3, 198, 247);
-    
-}
-
-.project-card:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-.button5{
-    position: absolute;
-    right: 200px;
-    top:  5345px;
-}
-.app4{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 347px;
-    left: 1550px;
-    gap: 30px;
-}
-.app3{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 347px;
-    left: 1040px;
-    gap: 30px;
-}
-.app2{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 347px;
-    left: 610px;
-    gap: 30px;
-}
-.app6{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 621px;
-    left: 1085px;
-    gap: 30px;
-}
-.app5{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 621px;
-    left: 635px;
-    gap: 30px;
-}
-.app{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 347px;
-    left: 180px;
-    gap: 30px;
-
-
-  
-
-   
-}   
-} 
