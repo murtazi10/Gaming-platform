@@ -59,7 +59,8 @@ body{
  
 .main-container{
     max-width: 1440px;
-    padding-left: 110px;
+    padding-left: 8%;
+    margin: 0 auto;
 }
 
 .about{
@@ -153,7 +154,8 @@ div span{
 
 .main-container2{
     max-width: 1440px;
-    padding: 0 110px;
+    padding: 0 8%;
+    margin: 0 auto;
 }
 
 .second-section-heading{
@@ -233,7 +235,8 @@ div span{
 
 .main-container3{
     max-width: 1440px;
-    padding: 113px 203px 0 110px;
+    padding: 9% 13% 0 8%;
+    margin: 0 auto;
     background-color: #2e2e2e;
 }
 
@@ -284,7 +287,8 @@ div span{
 
 .main-container4{
     max-width: 1440px;
-    padding: 0 66px 0 110px;
+    padding: 0 6% 0 8%;
+    margin: 0 auto;
 }
 
 .team-card{
@@ -425,7 +429,7 @@ div span{
     letter-spacing: 0em;
     position: absolute;
     left: 1120px;
-    top:  3064px;
+    top:  3082px;
     width: fit-content;
 }
 
@@ -441,7 +445,7 @@ div span{
 
 .container-footer{
     max-width: 1440px;
-    padding:70px 101px 0px 120px ;
+    padding:4% 7% 0px 10% ;
     height: 376px;
 }
 
@@ -571,11 +575,3 @@ div span{
 
 }
 
-@media  sqreen and (min-width:144px) {
-.main-container3{
-    max-width: 1440px;
-    padding: 113px 203px 0 110px;
-    background-color: #2e2e2e;
-}
-
-}
