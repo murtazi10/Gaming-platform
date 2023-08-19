@@ -7,6 +7,7 @@
 body{
     
     background: linear-gradient(180.96deg, #080008 0.82%, #7c0092 129.1%);
+    
 
 
 }
@@ -279,7 +280,7 @@ margin-bottom: 57px;
     gap: 35px;
 }
 
-.game-card{
+.tranding-game-card{
     width: 251px;
     height: 277px;
     object-fit: cover;
@@ -287,7 +288,7 @@ margin-bottom: 57px;
     border-radius: 20px;
 }
 
-.game-card:hover{
+.tranding-game-card:hover{
     transform: scale(1.1);
     -ms-transform: scale(5.0);
     box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
@@ -316,299 +317,198 @@ margin-bottom: 57px;
 
 /* მეასემე სექცია*/
 
-
-
 .third-section-heading{
-    font-family: 'poppins';
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 66px;
+    color: #FFF;
     text-align: center;
-    color: white;
-   
-
-}
-
-.third-section-content{
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-   
-}
-
-.third-section-content h2{
-    font-family: 'poppins';
-    font-size: 30px;
-font-weight: 600;
-line-height: 56px;
-color: white;
-}
-
-.third-section-content p{
     font-family: 'Poppins';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    color: white;
-
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 187.5%; /* 65.625px */
 }
+
+.third-section h2{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 187.5%; /* 56.25px */
+    margin-bottom: 20px;
+}
+
+.third-section-p{
+    color: #FFF;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 187.5%; /* 30px */
+    margin-bottom: 40px;
+}
+
 
 .spiderman{
-    margin-top: 5%;
-    border-radius: 5px;
     position: relative;
-    margin-bottom: 157px;
-    
 }
 
 .absolute{
+    right: 230px;
+    margin-top: -68px;
     position: absolute;
-    right: 250px;
-    height: 77px;
-    width:  196px;
-    margin-top: -20px;
     object-fit: cover;
+    width: 196px;
+    height: 70px;
+
     
-    
-   
+}
+  
+.third-section{
+    margin-bottom: 157px;
 }
 
-/* მეოთხე სექცია*/
-
+/* მეოთხე სექცია */
 
 .container4{
     max-width: 1440px;
     margin: 0 auto;
-}
-
-.back-img{
-    width: 1440px;
-    height: 102.30vh;
-    background-repeat: no-repeat;
-    margin: auto;
-}
-    
-
-.grdient{
-    margin:  auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), rgba(0, 0, 0, 0.54);
-    position: absolute;
-    background-repeat: no-repeat;
-    height: 103vh;
-    width: 1440px;
-    margin-top:-927px;
     
 }
 
-.fourth-section-heading {
-    font-family: 'poppins';
-    color: white;
-    position: absolute;
-    margin-top: -850px;
+.fourth-section{
+    position: relative;
+    margin-bottom: 148px;
+    
+}
+
+.game-development{
+    padding: 83px 125px 93px 125px;
+    background-image: url(./assets/images/db4d123c4b390965f684f22d4bf13849\ 1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+     
+}
+
+.game-develpment-title{
+    color: #FFF;
     text-align: center;
-    margin-left: 307px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-
-
-}
-
-.fourth-section-heading h2{
     font-family: 'Poppins';
     font-size: 30px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 187.5%; /* 56.25px */
+}
+
+.gradient{
     
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), rgba(0, 0, 0, 0.54);
+    height: 882px;
+    width: 1440px;
+   margin: 0 auto;
+    margin-top:-900px ;
 
 }
 
-.fourth-section-heading p{
+.game-develpment-p{
+    margin-bottom: 100px;
+    color: #FFF;
+    text-align: center;
     font-family: 'Poppins';
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    
-  
-
+    line-height: 187.5%; /* 30px */
 }
 
-.app-image{
-    max-width: 65px;
-    height: 64.62px;
-
-}
-
-.app{
-    
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -570px;
-    margin-left: 180px;
-    gap: 30px;
-    
-   
-}
-
-.app-content p{
-    
+.game-card-p{
+    color: #FFF;
+    text-align: center;
     font-family: 'Poppins';
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 30px;
-    color: white;
+    line-height: 187.5%; /* 30px */
 }
 
-.app-content{
-    
+.game-card{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
 }
+
 
 .arrow{
-    max-width:  21px;
-height: 17px;
+    width: fit-content;
 }
 
-
-
-.app2{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -570px;
-    margin-left: 510px;
-    gap: 30px;
-}
-
-.app3{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -570px;
-    margin-left: 840px;
-    gap: 30px;
-}
-  
-.app4{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -570px;
-    margin-left: 1150px;
-    gap: 30px;
-}
-
-.app5{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -270px;
-    margin-left: 535px;
-    gap: 30px;
-}
-
-.app6{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -270px;
-    margin-left: 855px;
-    gap: 30px;
-}
-
-
-/* მეხუთე სექცია*/
-
-
-.container3{
-    
-    max-width: 1440px;
-    margin: auto;  
-    padding: 0 9%; 
-    background: linear-gradient(148.9deg, #090300 18.81%, rgba(9, 3, 0, 0) 199.4%);
-   
-   
-
-}
-
-
-
-.fivth-sect-h2{
-    font-family: 'Poppins';
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 56px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-top: 141px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-
-
-}
-
-.fivth-sect-p{
-    font-family: 'Poppins';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;
-    padding-bottom: 71px;
-    
-
-}
-
-.gallery-projects{
+.development-gallery{
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
-    margin-bottom: 72px;
+    gap: 120px;
+}
+
+.development-gallery-part2{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    gap: 80px;
+    
     
 }
 
-.project-card{
+/* FIVTH-SECTION*/
+.container3{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+.recent-projects-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 187.5%; /* 56.25px */
+}
+
+.recent-projects-p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 187.5%; /* 26.25px */
+    margin-bottom: 71px;
+}
+
+.recent-projects-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    margin-bottom: 72px;
+}
+
+.projects-card{
     transition: .3s ease;
     border-radius: 20px;
 }
 
-.project-card:hover{
+.projects-card:hover{
     transform: scale(0.9);
-    -ms-transform: scale(0.9);
+    -ms-transform: scale(1.0);
     box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
 }
 
-.button4{
-    font-family: 'rubik';
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 38px;
-    color: white;
-    text-decoration: none;
-    padding: 15px 30px;
-    background: #2d2d2d68;
-    border-radius: 10px;
-    max-height: 57px;
-    margin-left: 505px;
-    
-   
-}
 
-/* მეხუთე სექციის მეორე ნაწილი*/
 
-.fivth-section-part-2 h2{
+
+/* SIXTH-SECTION */
+
+.sixth-section h2{
     font-family: 'Poppins';
     font-size: 30px;
     font-weight: 600;
@@ -620,12 +520,9 @@ height: 17px;
 
 }
 
-.fivth-section-part-2{
-    margin-top: 105px;
-    
-}
 
-.fivth-section-part-2 p{
+
+.sixth-section p{
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
@@ -642,7 +539,7 @@ height: 17px;
     max-width: 1170px;
     max-height: 189px;
     padding: 40px 55px;
-    background: #1C140F;
+    background:  #2e2e2e;
     border-radius: 15px;
     margin-bottom: 163px;
     
@@ -858,10 +755,62 @@ height: 17px;
     margin-top: 29px;
     padding-bottom: 29px;
     
-    
-
 }
 
 
+@media  screen and  (max-width:1680px){
+    .recent-projects-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 17px;
+        margin-bottom: 72px;
+    }
+
+   
+
+    .absolute{
+        right: 320px;
+        margin-top: -68px;
+        position: absolute;
+        object-fit: cover;
+        width: 196px;
+        height: 70px;
+    
+        
+    }
+
+    .container3{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 9%;
+    }
+}
 
 
+@media  screen and  (max-width:1921px){
+    .recent-projects-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 17px;
+        margin-bottom: 72px;
+    }
+
+   
+
+    .absolute{
+        right: 320px;
+        margin-top: -68px;
+        position: absolute;
+        object-fit: cover;
+        width: 196px;
+        height: 70px;
+    
+        
+    }
+
+    .container3{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 9%;
+    }
+}
