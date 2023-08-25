@@ -464,6 +464,10 @@ margin-bottom: 57px;
     padding: 0 10%;
 }
 
+.recent-projects{
+    margin-left: 40px;
+}
+
 .recent-projects-title{
     color: #FFF;
     text-align: center;
@@ -490,6 +494,25 @@ margin-bottom: 57px;
     flex-wrap: wrap;
     gap: 17px;
     margin-bottom: 72px;
+}
+.button-3{
+    font-family: 'rubik';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    background: #21212168;
+    border-radius: 10px;
+    max-height: 57px;
+    margin-bottom: 100PX;
+    margin-left: 500px;
+}
+
+.button-3:hover{
+    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
+    border: 3px solid rgba(3, 174, 247, 0.379);
 }
 
 .projects-card{
@@ -630,7 +653,7 @@ margin-bottom: 57px;
     max-width: 1440px;
     padding:4% 7% 0px 10% ;
     height: 376px;
-    margin: auto;
+    margin:  0 auto;
 }
 
 
@@ -758,6 +781,7 @@ margin-bottom: 57px;
 }
 
 
+
 @media  screen and  (max-width:1680px){
     .recent-projects-gallery{
         display: flex;
@@ -782,12 +806,12 @@ margin-bottom: 57px;
     .container3{
         max-width: 1440px;
         margin: 0 auto;
-        padding: 0 9%;
+        padding: 0 8%;
     }
 }
 
 
-@media  screen and  (max-width:1921px){
+ @media  screen and  (max-width:1922px){
     .recent-projects-gallery{
         display: flex;
         flex-wrap: wrap;
@@ -811,6 +835,6 @@ margin-bottom: 57px;
     .container3{
         max-width: 1440px;
         margin: 0 auto;
-        padding: 0 9%;
+        padding: 0 5%;
     }
-}
+} 

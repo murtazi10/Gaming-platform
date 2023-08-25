@@ -56,22 +56,13 @@ body{
     
  }
 
- .border-bottom{
-    position: absolute;
-    border-top: #E87D0E 4px solid;
-    max-width:  35px;
-    padding: 6px 13px;
-    margin-top: 30px;
-    margin-left: 1069px;
-    
-   
-}
+
 
 /*პირველი სექცია*/
 
 .main-container{
     max-width: 1440px;
-    padding: 0 9% 0 12%;
+    padding: 0 8%;
     margin: 0 auto;
 }
 
@@ -111,268 +102,205 @@ div span{
     margin-bottom: 74px;
 }
 
-.email-form{
-    width: 400px;
-    height: 49px;
-   
-    background-color: #2e2e2e;
-    border-radius: 10px;
-    border: none;
-    color: white;
+.map{
+    margin-bottom: 50px;
+}
+
+
+
+.social-networks{
+    
+    display: flex;
+    gap: 205px;
+    align-items: center;
+}
+
+.social-links{
+    position: relative;
+}
+
+.border-contact{
+    position: absolute;
+    border-right: 2px solid rgb(200, 83, 0);
+    height: 100px;
+    margin-left: 350px;
+}
+
+.border-contact-2{
+    position: absolute;
+    border-right: 2px solid rgb(200, 83, 0);
+    height: 100px;
+    margin-left: 800px;
+}
+
+
+.tel{
+    display: flex;
+    gap: 20px;  
+}
+
+.location{
+    display: flex;
+    gap: 20px;
+}
+
+.loc-img{
+    width: 30px;
+    height: 30px;
+}
+
+.tel-img{
+    width: 30px;
+    height: 30px;
+}
+
+.social-link-p{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%; /* 30.32px */
+}
+
+.number{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.location-p{
+    color: #FFF;
+    font-family: 'Poppins';
     font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.contactm{
+    margin-bottom: 150px;
+}
+
+/* SECOND SECTION */
+
+.container-2{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 55px 0  150px 0;
+    background: linear-gradient(92.48deg, #FA8305 6.08%, #81511d 117.25%);
+}
+
+.second-section-title{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 189.5%; /* 56.85px */
+    text-align: center;
+}
+
+.second-section-p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 189.5%; /* 24.635px */
+    margin-bottom: 110px;
+}
+
+.input{
+    width: 322px;
+    height: 56px;
+    border-radius: 9px;
+    border: none;
+    background:rgb(72, 72, 72)
     
 }
 
-.form-news{
+.label{
+    color: #4F4F4F;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 175.4%; /* 24.556px */
+    letter-spacing: -0.3px;
+}
+
+.name{
+    display: flex;
+}
+
+.form{
     display: flex;
     justify-content: center;
-    margin-bottom: 103px;
-}
-
-/*second section*/
-
-.main-container2{
-    max-width: 1440px;
-    padding: 0 6% 0 7%;
-    margin: 0 auto;
-}
-
-.second-section-button{
-    background-color: #DC7000;
-    text-decoration: none;
-    color: #FFFCFC;
-    font-size: 16px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 187.5%;
-    padding: 9px 30px;
-    width: fit-content;
-}
-
-.second-section-button:hover{
-    background: linear-gradient(92.48deg,  #7c0092 020%, #3ccefb 117.25%);
-}
-
-.button-p{
-    color: #FFF;
-    font-size: 16px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 187.5%;
-}
-
-.button{
-    display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    margin-left: 195px;
 }
 
-.game-content-h1{
-    color: #FFF;
-    font-size: 30px;
-    font-family: 'poppins';
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-
+.input-email,
+.input-message{
+    width: 671px;
+    height: 56px;
+    border-radius: 9px;
+    border: none;
+    background:rgb(72, 72, 72)
 }
 
-.game-content-p{
-    color: #FFF;
-    font-size: 17px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 207.8%;
+.input-message{
+    width: 671px;
+    height: 232px;
 }
 
-.game-content{
+.form-content{
+    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 30px;
 }
 
-.legends-img{
-    width: fit-content;
-}
-
-.line{
-    border-bottom: #535353 solid 2px;
-    width: 587px; 
-    margin-top: 60px;
-    margin-bottom: 90px;
-}
-
-.button2{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.button2 a{
+.contact-button{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.3%; /* 32.688px */
     text-decoration: none;
-    color: #FFFCFC;
-    font-size: 14px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 187.5%;
-    padding: 7px 26px;
-    width: fit-content;
-}
-
-.projects-button:nth-child(2n){
-    color: red;
-   
-}
-.button-p2{
-    color: #FFF;
-    font-size: 14px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 187.5%;
-}
-
-.second-section-content{
-    display: flex;
-    gap: 72px;
-    margin-bottom: 100px;
-}
-
-.project{
-    display: flex;
-    
-    gap: 30px;
+    border-radius: 10px;
+    background: #4900a3;
+    padding: 10px 47px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 480px;
     
 }
 
-.second-section-h2{
-    color: #FFF;
-    font-size: 23px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.second-section{
+    margin-bottom: 150px;
 }
 
 
 
-.projects-img{
-    width: 195px;
-    height: 183px;
-}
+/* third section */
 
-
-
-.second-section-h2{
-    margin-top: -40px;
-}
-.projects{
-    display: flex;
-    flex-direction: column;
-    gap: 65px;
-    margin-top: 5px;
-}
-
-.projects-button1{
-    background: #FF8484;
-    transition: .3s ease;
-}
-
-.projects-button2{
-    background: #2351F5;
-    transition: .3s ease;
-}
-
-.projects-button4{
-    background:  #7c0092;
-    transition: .3s ease;
-}
-
-.projects-button3{
-     background: #FF7C32;
-     transition: .3s ease;
-}
-
-.projects-button5{
-    background: #23A54F;
-    transition: .3s ease;
-}
-
-.projects-button6{
-    background: #9c0000;
-    transition: .3s ease;
-}
-
-.projects-button7{
-    background: #00c1cb;
-    transition: .3s ease;
-}
-
-
-
-.projects-button1:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(5.0); 
-    border-radius: 20px;
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-.projects-button2:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(5.0); 
-    border-radius: 20px; 
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-.projects-button3:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(5.0); 
-    border-radius: 20px; 
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-.projects-button4:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(5.0); 
-    border-radius: 20px; 
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-.projects-button5:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(5.0); 
-    border-radius: 20px;
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-.projects-button6:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(5.0); 
-    border-radius: 20px;
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-.projects-button7:hover{
-    transform: scale(1.2);
-    -ms-transform: scale(5.0); 
-    border-radius: 20px;
-    box-shadow: 0px 6px 6px 3px rgb(3, 198, 247);
-}
-
-/* third section*/
-
-.main-container3{
+.container-3{
     max-width: 1440px;
-    padding: 0 11% 0 8% ;
     margin: 0 auto;
+    padding: 0 10%;
 }
-
-
-.third-section-content h2{
+.third-section h2{
     font-family: 'Poppins';
     font-size: 30px;
     font-weight: 600;
@@ -381,9 +309,12 @@ div span{
     text-align: left;
     color: white;
     
+
 }
 
-.third-section-content p{
+
+
+.third-section p{
     font-family: 'Poppins';
     font-size: 16px;
     font-weight: 400;
@@ -392,19 +323,23 @@ div span{
     text-align: left;
     color: white;
     margin-bottom: 75px;
+    
+
 }
+
 .email{
     max-width: 1170px;
     max-height: 189px;
     padding: 40px 55px;
     background:  #2e2e2e;
     border-radius: 15px;
+    margin-bottom: 163px;
     
 }
 
 .email-content h2{
     color: #FFFFFF;
-    
+    display: flex;
 } 
 
 .email-content p{
@@ -457,26 +392,22 @@ div span{
     line-height: 20px;
     letter-spacing: 0em;
     position: absolute;
-    margin-left: 277px;
-    margin-top: -45px;
-    width: fit-content;
+    margin-left: 467px;
+    margin-top:  -45px;
 }
 
 .button5:hover{
     background-color: #7c0092 ;
 }
 
-.third-section{
-    margin-bottom: 148px;
-}
+/* FOOTER */
 
-/* footer*/
 
 .container-footer{
     max-width: 1440px;
     padding:4% 7% 0px 10% ;
-    height: 371px;
-    margin:  auto;
+    height: 376px;
+    margin:  0 auto;
 }
 
 
@@ -546,6 +477,7 @@ div span{
     line-height: 26px;
     letter-spacing: 0em;
     color: #FFFFFF;
+    margin-bottom: 0;
 
 }
 .contact-us p{
@@ -582,10 +514,9 @@ div span{
 
 .footer{
     background-color: rgb(0, 0, 0);
-    
 }
 
-.line-footer{
+.line{
     border: 1px solid rgba(210, 210, 210, 1);
     margin-top: -63px;
     
@@ -601,17 +532,7 @@ div span{
     color: #FFFFFF;
     margin-top: 29px;
     padding-bottom: 29px;
-}
-
-.icon{
-    transition: .3s ease;
-}
-
-.icon:hover{
-    transform: scale(1.3);
-    -ms-transform: scale(5.0); 
-   
-
+    
 }
 
 
